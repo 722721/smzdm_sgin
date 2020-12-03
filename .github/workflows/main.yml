@@ -9,7 +9,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-    schedule:
+  schedule:
     - cron: '1 1 * * *'
   # Allows you to run this workflow manually from the Actions tab
 
@@ -22,22 +22,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - uses: actions/checkout@v2
-      - name: 初始化Python
-        uses: actions/setup-python@v2
-        with:
+    - uses: actions/checkout@v2
+    - name: 初始化Python
+      uses: actions/setup-python@v2
+      with:
         python-version: 3.7
 
-      # Runs a set of commands using the runners shell
-      - name: Install requirements
-        run: |
-          pip install -r requirements.txt
-    
-      # Runs a set of commands using the runners shell
-      - name: 签到
-        run: |
-          python smzdm.py
+    - name: Install requirements
+      run: |
+        pip install -r requirements.txt
+    - name: 签到
+      run: |
+        python smzdm.py
