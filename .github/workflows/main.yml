@@ -36,8 +36,8 @@ jobs:
       - name: Install requirements
         run: |
           pip install -r requirements.txt
-          
+    
       # Runs a set of commands using the runners shell
-        - name: 签到
-      run: |
-        python smzdm.py
+      - name: 签到
+        run: |
+          python smzdm.py
