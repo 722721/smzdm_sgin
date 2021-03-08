@@ -3,7 +3,7 @@ import requests
 import json
 
 # 设置Server酱post地址 不需要可以删除
-serverChan = "https://sc.ftqq.com/SCU51384Te154b9ccaddf2889241be0dab32e97445cda1acfeb986.send"
+serverChan = "https://sctapi.ftqq.com/SCT16742TCvvCPg4nsKGMGAekd2dpbb9i.send"
 # 状态地址
 current_url = 'https://zhiyou.smzdm.com/user/info/jsonp_get_current'
 # 签到地址
