@@ -9,7 +9,7 @@ current_url = 'https://zhiyou.smzdm.com/user/info/jsonp_get_current'
 # 签到地址
 checkin_url = 'https://zhiyou.smzdm.com/user/checkin/jsonp_checkin'
 # 用用户名和密码登录后获取Cookie
-userCookie = "smzdm_user_source=C36AD34D62A48452DA05D0EF2EB5B589; device_id=1851137730151036430938001793bf1aa4c39e6ca867f216a9aafc86ff; userId=1059067167; r_sort_type=score; __ckguid=ooy3nG7GTCWJjNbywBTEj52; __jsluid_s=477dae8faa7e522df0b0b213cb4d367e; homepage_sug=a; _zdmA.uid=ZDMA.FaoTOANnU.1611557565.2419200; ss_ab=ss58; smzdm_collection_yuanchuang=71293801; wt3_sid=%3B999768690672041; s_his=%E8%A1%8C%E8%BD%A6%E8%AE%B0%E5%BD%95%E4%BB%AA%2C%E8%BD%A6%20%E9%A6%99%E6%B0%B4%2Cdiptyque%2Cdiptyque%20%E8%BD%A6%E8%BD%BD%2C%E8%BD%A6%E8%BD%BD%20%E9%A6%99%E6%B0%B4%2C%E9%95%BF%E9%92%B1%E5%8C%85%2C%E9%95%BF%20%E9%92%B1%E5%8C%85%2C%E5%8C%A1%E5%A8%81%2C%E5%8C%A1%E5%A8%81%20%E7%A7%B0%E6%84%8F%2C%E5%8C%A1%E5%A8%81%20%E5%84%BF%E7%AB%A5; sess=NmQ1ZDV8MTYxNzM3MDUwNnwxMDU5MDY3MTY3fDc3NGEyOWEyN2YzYjQ3ZjNiZTRlMThjY2IxY2VmZjNh; user=user%3A1059067167%7C1059067167; smzdm_id=1059067167; wt3_eid=%3B999768690672041%7C2160022858800512364%232161218648400883621; smzdm_collection_youhui=29670676; smzdm_user_view=108B35B4334A907F8253F2744B60B389"
+userCookie = "pt_key=AAJgRcgoADAe4ASCo2GIJc-dthluaYwvlBiQc0Hph0vSP19bg1NHkzZ3h-LANwhy_DqZ9Hec9FE;pt_pin=774584347_m;"
 headers = {
     'Referer': 'https://www.smzdm.com/',
     'Host': 'zhiyou.smzdm.com',
